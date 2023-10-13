@@ -35,6 +35,7 @@ public class TakesScreenShotName {
 		js.executeScript("window.scrollBy(1000, 700)", " ");
 		Thread.sleep(3000);
 		js.executeScript("window.scrollBy(100, -700)", " ");
+		driver.quit();
 		
 	}
 	}
